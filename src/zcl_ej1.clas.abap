@@ -1,14 +1,18 @@
-class ZCL_EJ1 definition
-  public
-  final
-  create public .
-
-public section.
-protected section.
-private section.
+CLASS zcl_ej1 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+  PUBLIC SECTION.
+    INTERFACES if_oo_adt_classrun .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS ZCL_EJ1 IMPLEMENTATION.
+CLASS zcl_ej1 IMPLEMENTATION.
+  METHOD if_oo_adt_classrun~main.
+    out->write( 'Hello world!' ).
+  ENDMETHOD.
+
 ENDCLASS.
