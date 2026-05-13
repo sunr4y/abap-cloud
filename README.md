@@ -1,2 +1,2 @@
 # abap-cloud
-ABAP Trial account repository
+ABAP exploration repository
